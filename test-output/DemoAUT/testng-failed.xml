@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [DemoAUT]" parallel="methods">
+  <parameter name="browser" value="chrome"/>
+  <test name="Chrome test(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.Login">
+        <methods>
+          <include name="FlightFinder"/>
+          <include name="launchApp"/>
+          <include name="Login_TC01"/>
+        </methods>
+      </class> <!-- testCases.Login -->
+    </classes>
+  </test> <!-- Chrome test(failed) -->
+</suite> <!-- Failed suite [DemoAUT] -->

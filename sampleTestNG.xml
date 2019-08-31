@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoAUT" parallel="methods" thread-count="2" > 
+	<test name="Chrome test">
+		<parameter name= "browser" value="chrome"/>
+    		<classes>
+    			<class name = "testCases.Login"/>
+    		</classes>
+	</test>
+ </suite>
